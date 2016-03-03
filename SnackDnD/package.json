@@ -1,7 +1,7 @@
 {
-  "name": "book-pro-react-shoppinglist",
+  "name": "book-pro-react-snackdnd",
   "version": "1.0.0",
-  "description": "Shopping List",
+  "description": "Snack Drag-and-Drop",
   "main": "index.js",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --progress"
