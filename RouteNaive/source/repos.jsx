@@ -22,6 +22,9 @@ class Repos extends Component{
                 {repo.name}</Link>
                 </li>
             ));
+            
+            let child = this.props.children && React.cloneElement(this.props.children,
+            { repositories: this.state.repositories});
 
            
             return (
@@ -30,7 +33,7 @@ class Repos extends Component{
                     <ul>
                         {repos}
                     </ul>
-                    {this.props.children}
+                    { child }
                 </div>  
             );
         
